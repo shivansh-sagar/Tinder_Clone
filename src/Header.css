@@ -1,0 +1,24 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.btn1{
+    border: none;
+    background: transparent;
+    font-size: large;
+    margin-top: 0px;
+    cursor: pointer;
+    padding: 20px;
+}
+:hover.btn1{
+    background-color: grey;
+    border-radius: 100%;
+}
+.header-logo{
+    object-fit: contain;
+    height: 40px;
+}
